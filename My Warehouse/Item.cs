@@ -13,6 +13,7 @@ namespace My_Warehouse
 {
     abstract class Item
     {
+        // Was I supposed to be able to access these in the derived classes?
         private string Name;
         private double Price;
         private int Quantity;
